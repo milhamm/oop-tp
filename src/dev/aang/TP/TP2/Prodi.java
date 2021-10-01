@@ -39,6 +39,6 @@ public class Prodi {
 
     @Override
     public String toString() {
-        return String.format("[%s] (%s)", this.nama, this.kode);
+        return String.format("[%s] (%s)", getNama(), getKode());
     }
 }
