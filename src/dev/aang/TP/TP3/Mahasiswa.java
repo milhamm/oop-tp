@@ -1,4 +1,4 @@
-package dev.aang.TP.TP2;
+package dev.aang.TP.TP3;
 
 public class Mahasiswa {
 

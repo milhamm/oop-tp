@@ -1,4 +1,4 @@
-package dev.aang.TP.TP1;
+package dev.aang.TP.TP2;
 
 public class Soal1 {
 
