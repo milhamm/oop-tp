@@ -42,7 +42,7 @@ public class Song {
     }
 
     public String getRelease() {
-        return  new SimpleDateFormat("dd MMMM yyyy").format(release);
+        return new SimpleDateFormat("dd MMMM yyyy").format(release);
     }
 
     public void setRelease(Date release) {
