@@ -2,7 +2,7 @@ package dev.aang.TP.TP06;
 
 public class DriverTP06 {
 
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         Coordinate A = new Coordinate(15, 12);
         Coordinate3D B = new Coordinate3D(10, 28, 30);
         Coordinate3D C = new Coordinate3D(11, 26, 32);
