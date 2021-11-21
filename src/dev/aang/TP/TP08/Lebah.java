@@ -9,8 +9,8 @@ public class Lebah extends Serangga{
     }
 
     @Override
-    public void gerak(Koordinat3D k) {
-        this.k = k;
+    public void gerak(Koordinat k) {
+        this.k = (Koordinat3D) k;
     }
 
     @Override

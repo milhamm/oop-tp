@@ -16,15 +16,8 @@ public class Serangga {
         return warna;
     }
 
-    public void gerak(Koordinat k) {
+    public void gerak(Koordinat k) {}
 
-    }
 
-    public void gerak(Koordinat3D k) {
-
-    }
-
-    public void info() {
-        System.out.println("Hi");
-    }
+    public void info() {}
 }
