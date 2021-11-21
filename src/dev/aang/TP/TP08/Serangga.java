@@ -1,11 +1,13 @@
 package dev.aang.TP.TP08;
 
-public class Serangga {
+public abstract class Serangga {
     private final int jmlKaki = 6;
     private String warna;
+    public Koordinat k;
 
     public Serangga(String warna, Koordinat k) {
-        this.warna = warna;
+        setWarna(warna);
+        this.k = k;
     }
 
     public int getJmlKaki() {
@@ -16,8 +18,15 @@ public class Serangga {
         return warna;
     }
 
-    public void gerak(Koordinat k) {}
+    public abstract void gerak(Koordinat k);
 
+    public abstract void info();
 
-    public void info() {}
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public Koordinat getPosisi() {
+        return k;
+    }
 }
