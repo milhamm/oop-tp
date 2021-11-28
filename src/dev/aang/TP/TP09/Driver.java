@@ -16,8 +16,8 @@ public class Driver {
         }
 
         ArrayList<Side<LocalDate, Double>> B = new ArrayList<>();
-        B.add(new Side<>(LocalDate.now(), 99.99));
-        B.add(new Side<>(LocalDate.now().minusDays(1), 66.66));
+        B.add(new Side<>(LocalDate.parse("2021-11-28"), 99.99));
+        B.add(new Side<>(LocalDate.parse("2021-11-27"), 66.66));
 
         System.out.println("Array List B");
         for (Side<LocalDate, Double> b: B) {
