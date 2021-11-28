@@ -28,9 +28,9 @@ public class Side <T, U> {
 
     public void info() {
         System.out.printf("Left type: %s\n", getLeft().getClass());
-        System.out.printf("Left Value: %s\n", getLeft());
+        System.out.printf("Left value: %s\n", getLeft());
         System.out.printf("Right type: %s\n", getRight().getClass());
-        System.out.printf("Left Value: %s\n\n", getRight());
+        System.out.printf("Right value: %s\n\n", getRight());
     }
 }
 
