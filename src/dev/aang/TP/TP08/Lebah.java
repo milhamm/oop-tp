@@ -1,6 +1,6 @@
 package dev.aang.TP.TP08;
 
-public class Lebah extends Serangga{
+public class Lebah extends Serangga {
 
     public Lebah(String warna, Koordinat3D k) {
         super(warna, k);
