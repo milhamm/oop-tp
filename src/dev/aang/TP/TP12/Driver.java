@@ -43,17 +43,16 @@ public class Driver extends javax.swing.JFrame {
             
             list.setModel(employeeList);
             list.addListSelectionListener(new ListSelectionListener() {
-            
-            @Override
-            public void valueChanged(ListSelectionEvent e) {
-                if (!e.getValueIsAdjusting()) {
-                    Employee selected = arrPegawai.get(list.getSelectedIndex());
-                    name.setText(selected.getName());
-                    position.setText(selected.getRoles());
-                    date.setText(selected.getDob());
+                @Override
+                public void valueChanged(ListSelectionEvent e) {
+                    if (!e.getValueIsAdjusting()) {
+                        Employee selected = arrPegawai.get(list.getSelectedIndex());
+                        name.setText(selected.getName());
+                        position.setText(selected.getRoles());
+                        date.setText(selected.getDob());
+                    }
                 }
-            }
-        });
+            });
         } catch (Exception e) {
             e.printStackTrace();
         }
